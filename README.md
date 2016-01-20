@@ -1,11 +1,11 @@
 # cinch-yadr
-_**Y**_et _**A**_nother _**D**_ice _**R**_oller for [Cinch][cinchrb]
+**Y**et **A**nother **D**ice **R**oller for [Cinch][cinchrb]
 
 ## Commands
 ```
 !roll $d%
 ```
-This will produce a roll of a _**%**_ sided die _**$**_ times.
+This will produce a roll of a **%** sided die **$** times.
 
 ## Example Output
 The Cinch Bot will reply with 2 lines in the following format:

@@ -1,5 +1,5 @@
 # cinch-yadr
-*Y*et *A*nother *D*ice *R*oller for [Cinch][cinchrb]
+_*Y*_et _*A*_nother _*D*_ice _*R*_oller for [Cinch][cinchrb]
 
 ## Commands
 ```
@@ -10,11 +10,11 @@ This will produce a roll of a *%* sided die *$* times.
 ## Example Output
 The Cinch Bot will reply with 2 lines in the following format:
 ```
-\<Bot Name\> \<User Name\> Results: \<total of all die rolled\>
-\<Bot Name\> \<User Name\> Breakout: [Die1, Die2, Die3, ...]
+<Bot Name> <User Name> Results : <Total of all die rolled>
+<Bot Name> <User Name> Breakout: [Die1, Die2, Die3, ...]
 ```
 
-Example Output:
+Another Example:
 ```
 Player: !roll 3d10
 cinch: Player Results: 19

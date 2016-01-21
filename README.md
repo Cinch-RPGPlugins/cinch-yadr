@@ -16,7 +16,7 @@ This will produce a roll of 1D20.
 ```
 !help
 ```
-This will output the commands available
+This will output the available commands
 
 ### Example Output
 The Cinch Bot will reply with 2 lines in the following format:

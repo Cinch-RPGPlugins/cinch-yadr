@@ -35,8 +35,8 @@ This will produce a roll of 1d20.
 This will output the commands available
 
 ## Dependencies
-[Cinch][cinchrb] 
-[Dice-Bag][dicelib] 
+[Cinch][cinchrb]   
+[Dice-Bag][dicelib]   
 
 [cinchrb]: https://github.com/cinchrb/cinch
 [dicelib]: https://github.com/syntruth/Dice-Bag

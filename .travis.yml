@@ -1,3 +1,6 @@
 language: ruby
 rvm:
  - "2.1.5"
+env:
+  - "CHECK='rubocop -D *.rb'"
+  - "CHECK='rspec spec --color --format documentation --order random'"

@@ -14,7 +14,7 @@ Note that the **$** (Number of Die to be Rolled) is optional
 ```
 !lazy
 ```
-This will produce a roll of 1D20.
+This will produce a roll of 1D20.  
 This is for Lazy DM/GM's who want to roll a quick D20 but dont want to type out `!roll 1D20`
 
 ```

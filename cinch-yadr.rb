@@ -6,7 +6,7 @@ class Yadr
 
     match /roll (\d{1,2}d\d{1,2})/, method: :roll
     match /lazy/, method: :lazyroll
-    match /help/ 
+    match /help/
     def roll(m,format)
         dice   = DiceBag::Roll.new(format)
 
@@ -15,7 +15,7 @@ class Yadr
         m.reply "Result  : #{result}",true
         m.reply "Breakout: #{tally}",true
     end
-   
+
     def lazyroll(m)
         m.reply 'Rolling 1d20'
         dice   = DiceBag::Roll.new('1d20')

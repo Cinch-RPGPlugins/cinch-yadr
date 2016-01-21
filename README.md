@@ -32,12 +32,14 @@ Notice that the "Breakout" replies with the largest results first and sorts them
 
 ```
 Player: !roll 3d10
+cinch: Rolling 3d10's
 cinch: Player Results : 19
 cinch: Player Breakout: [10, 7, 2]
 ```
 
 ```
 Player: !roll d10
+cinch: Rolling D10
 cinch: Player Result  : 3
 ```
 

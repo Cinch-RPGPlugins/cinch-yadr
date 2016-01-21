@@ -1,4 +1,4 @@
-# cinch-yadr ![BuildStatus](https://travis-ci.org/bbourqu/cinch-yadr.svg?branch=master)
+# cinch-yadr [![Build Status](https://travis-ci.org/bbourqu/cinch-yadr.svg?branch=master)](https://travis-ci.org/bbourqu/cinch-yadr) 
 **Y**et **A**nother **D**ice **R**oller for [Cinch][cinchrb]
 
 ## Commands

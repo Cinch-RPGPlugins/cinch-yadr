@@ -1,41 +1,44 @@
-# cinch-yadr [![Build Status](https://travis-ci.org/bbourqu/cinch-yadr.svg?branch=master)](https://travis-ci.org/bbourqu/cinch-yadr)
+#  cinch-yadr [![Build Status](https://travis-ci.org/bbourqu/cinch-yadr.svg?branch=master)](https://travis-ci.org/bbourqu/cinch-yadr)
 **Y**et **A**nother **D**ice **R**oller for [Cinch][cinchrb]
 
 ## Commands
 ```
 !roll $d%
 !roll $D%
+!roll d%
+!roll D%
 ```
 This will produce a roll of a **%** sided die **$** times.
+Note that the **$** (Number of Die to be Rolled) is optional
 
 ```
 !lazy
 ```
 This will produce a roll of 1D20.
+This is for Lazy DM/GM's who want to roll a quick D20 but dont want to type out `!roll 1D20`
 
 ```
 !help
 ```
 This will output the available commands
 
-### Example Output
+### Example Output:
 The Cinch Bot will reply with 2 lines in the following format:
 ```
 <Bot Name>: <User Name> Result  : <Total of all die rolled>
 <Bot Name>: <User Name> Breakout: [Die1, Die2, Die3, ...]
 ```
+Notice that the "Breakout" replies with the largest results first and sorts them
 
-### Another Example:
 ```
 Player: !roll 3d10
 cinch: Player Result  : 19
 cinch: Player Breakout: [10, 7, 2]
 ```
-Notice that the "Breakout" replies with the largest results first and sorts them
 
 ```
 Player: !lazy
-cinch: Rolling 1d20
+cinch: Rolling 1D20
 cinch: Player Result  : 7
 ```
 

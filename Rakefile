@@ -1,3 +1,3 @@
 task :default do
-  puts "Nothing for the moment"
+  puts 'Nothing for the moment'
 end

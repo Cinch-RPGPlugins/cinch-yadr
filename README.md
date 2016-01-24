@@ -49,6 +49,24 @@ cinch: !lazy                 - Rolls one D20
 cinch: !help                 - Shows this Message
 ```
 
+## Example Usage
+
+```ruby
+
+require 'cinch'
+require 'cinch-yadr'
+
+bot = Cinch::Bot.new do
+  configure do |c|
+    c.server = 'irc.freenode.org'
+    c.channesl = ['#cinch-bots']
+    c.plugins.plugins = [Yadr]
+  end
+end
+bot.start
+
+```
+
 ## Dependencies
 [Cinch][cinchrb]  
 [Dice-Bag][dicelib]  

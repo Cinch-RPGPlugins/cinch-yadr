@@ -66,7 +66,8 @@ require 'cinch-yadr'
 bot = Cinch::Bot.new do
   configure do |c|
     c.server = 'irc.freenode.org'
-    c.channesl = ['#cinch-bots']
+    c.nick = 'DieRollerBot'
+    c.channels = ['#cinch-bots']
     c.plugins.plugins = [Yadr]
   end
 end

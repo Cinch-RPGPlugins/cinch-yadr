@@ -20,12 +20,12 @@ class Yadr
   end
 
   def roll(m, format)
-    m.reply "Rolling #{format}"
+    m.reply "Rolling #{format} for", true
     dice    = DiceBag::Roll.new(format)
     result  = dice.result()
     tally   = result.sections[0].tally()
-    m.reply "Result  : #{result}", true
-    m.reply "Breakout: #{tally}", true
+    m.reply "Total   : #{result}", true
+    m.reply "Breakout: #{tally}", true if tally.length > 1
   end
 
   def lazyroll(m)

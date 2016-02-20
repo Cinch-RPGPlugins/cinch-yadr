@@ -5,4 +5,5 @@ rvm:
  - "1.9.3"
 env:
   - "CHECK='rubocop -D *.rb'"
+  - "CHECK='rubocop -l *.rb'"
   - "CHECK='rspec spec --color --format documentation --order random'"

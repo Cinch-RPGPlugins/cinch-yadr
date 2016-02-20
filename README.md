@@ -1,4 +1,7 @@
 #  cinch-yadr [![Build Status](https://travis-ci.org/Cinch-RPGPlugins/cinch-yadr.svg?branch=master)](https://travis-ci.org/Cinch-RPGPlugins/cinch-yadr)
+[![Code Climate](https://codeclimate.com/github/Cinch-RPGPlugins/cinch-yadr/badges/gpa.svg)](https://codeclimate.com/github/Cinch-RPGPlugins/cinch-yadr)
+[![Test Coverage](https://codeclimate.com/github/Cinch-RPGPlugins/cinch-yadr/badges/coverage.svg)](https://codeclimate.com/github/Cinch-RPGPlugins/cinch-yadr/coverage)
+[![Issue Count](https://codeclimate.com/github/Cinch-RPGPlugins/cinch-yadr/badges/issue_count.svg)](https://codeclimate.com/github/Cinch-RPGPlugins/cinch-yadr)
 **Y**et **A**nother **D**ice **R**oller for [Cinch][cinchrb]
 
 ## Commands
